@@ -1,4 +1,4 @@
-                                                                            # 🤖 AI Chat Application - Gemini AI Powered
+## 🤖 AI Chat Application - Gemini AI Powered
 
 ![AI Chat Assistant](https://img.shields.io/badge/AI-Chat%2520Assistant-blue)
 ![Multi-Modal](https://img.shields.io/badge/Multi--Modal-Text%252C%2520Image%252C%2520CSV-green)
