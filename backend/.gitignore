@@ -1,0 +1,10 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+data/temp_uploads/*
+data/processed/*
+
+# VSCode
+.vscode/
