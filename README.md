@@ -1,40 +1,39 @@
-## 🤖 AI Chat Application - Gemini AI Powered
+<h1 align="center">🤖 AI Chat Application - Gemini AI Powered</h1>
 
-![AI Chat Assistant](https://img.shields.io/badge/AI-Chat%2520Assistant-blue)
-![Multi-Modal](https://img.shields.io/badge/Multi--Modal-Text%252C%2520Image%252C%2520CSV-green)
-![Real-Time Streaming](https://img.shields.io/badge/Real--Time-Streaming-orange)
-![Node.js](https://img.shields.io/badge/Node.js-v22.14.0-green)
-![Python](https://img.shields.io/badge/Python-3.10%252B-blue)
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Chat%20Assistant-blue" />
+  <img src="https://img.shields.io/badge/Real--Time-Streaming-orange" />
+  <img src="https://img.shields.io/badge/Multi--Modal-Text%2C%20Image%2C%20CSV-green" />
+  <img src="https://img.shields.io/badge/Node.js-v22.14.0-green" />
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue" />
+</p>
 
-Ứng dụng chat AI đa phương thức hỗ trợ tương tác với văn bản, hình ảnh và file CSV. Được xây dựng với FastAPI backend và React frontend, tích hợp Google Gemini AI.
+<p align="center">
+Ứng dụng chat AI đa phương thức hỗ trợ tương tác với <b>văn bản</b>, <b>hình ảnh</b> và <b>file CSV</b>.<br>
+Được xây dựng với <b>FastAPI backend</b> và <b>React frontend</b>, tích hợp <b>Google Gemini AI</b>.
+</p>
 
+---
 
-🎥 Demo Video
+## 🎥 Demo Video
+🔗 [Xem Video Demo](https://drive.google.com/file/d/1_M6h39QJVYQMdH4mORqtaPOpO0GTWKVo/view?usp=drive_link)
 
-https://drive.google.com/file/d/1_M6h39QJVYQMdH4mORqtaPOpO0GTWKVo/view?usp=drive_link
+> Video giới thiệu các tính năng chính của ứng dụng.
 
-Video demo các tính năng chính của ứng dụng
+---
 
+## ✨ Tính Năng Nổi Bật
+- 💬 **Chat đa phương thức:** Text, Image, CSV  
+- 🚀 **Streaming real-time:** Phản hồi nhanh với hiệu ứng typing  
+- 📊 **Phân tích CSV:** Thống kê, biểu đồ, histogram  
+- 🖼️ **Xử lý ảnh thông minh:** Phân tích và mô tả hình ảnh  
+- 🎨 **Giao diện hiện đại:** Thiết kế responsive, gradient đẹp mắt  
+- ⚡ **Hiệu suất cao:** FastAPI + Vite cho tốc độ tối ưu  
 
-
-✨ Tính Năng Nổi Bật
-
- 💬 Chat đa phương thức: Text, Image, CSV
-
- 🚀 Streaming real-time: Phản hồi nhanh với hiệu ứng typing
-
- 📊 Phân tích CSV: Thống kê, biểu đồ, histogram
-
- 🖼️ Xử lý ảnh thông minh: Phân tích và mô tả hình ảnh
-
- 🎨 Giao diện hiện đại: Thiết kế responsive, gradient đẹp mắt
-
- ⚡ Performance tốt: FastAPI + Vite cho tốc độ tối ưu
-
-
+---
 
 ## 🏗️ Cấu Trúc Dự Án
-```
+```bash
 Test_Chatbot/
 ├── 🐍 backend/                 # FastAPI Backend
 │   ├── main.py                 # Điểm vào chính
@@ -73,8 +72,7 @@ Test_Chatbot/
 │
 └── 📚 README.md               # Project documentation
 ```
-
-
+---
 
 🚀 Hướng Dẫn Chạy Ứng Dụng
 
@@ -86,7 +84,6 @@ Node.js v22.14.0 (Đã xác nhận tương thích)
 
 Google Gemini API Key (Lấy tại đây)
 
-
 🔧 Cài Đặt Backend (Python 3.10+)
 Clone repository
 
@@ -96,18 +93,18 @@ cd Test_Chatbot/backend
 Tạo virtual environment (Python 3.10+)
 
 bash
-# Windows
+## Windows
 python -m venv venv
 venv\Scripts\activate
 
-# Mac/Linux
+## Mac/Linux
 python3 -m venv venv
 source venv/bin/activate
 Kiểm tra Python version
 
 bash
 python --version
-# Python 3.10.x hoặc cao hơn
+## Python 3.10.x hoặc cao hơn
 Cài đặt dependencies
 
 bash
@@ -117,15 +114,13 @@ Cấu hình environment
 
 bash
 cp .env.example .env
-# Chỉnh sửa .env và thêm API key
+## Chỉnh sửa .env và thêm API key
 GEMINI_API_KEY=your_actual_gemini_api_key_here
 Chạy backend server
 
 bash
 python main.py
 Backend sẽ chạy tại: http://localhost:8000
-
-
 
 ⚛️ Cài Đặt Frontend (Node.js v22.14.0)
 
@@ -158,68 +153,68 @@ bash
 npm run dev
 Frontend sẽ chạy tại: http://localhost:5173
 
-
-
 🌐 Truy Cập Ứng Dụng
 
 Mở browser và truy cập: http://localhost:5173
 
-
+---
 
 🎯 Hướng Dẫn Sử Dụng
 
 
 💬 Chat Văn Bản
 
- •	Nhập câu hỏi vào ô text và nhấn Send
+  •	Nhập câu hỏi vào ô text và nhấn Send
 
- •	Hỗ trợ markdown trong câu trả lời
+  •	Hỗ trợ markdown trong câu trả lời
 
- •	Lịch sử chat được lưu tự động
+  •	Lịch sử chat được lưu tự động
 
- •	Xử lý trạng thái tải/streaming mượt mà
+  •	Xử lý trạng thái tải/streaming mượt mà
+
 
 
 🖼️ Chat Với Ảnh
 
- •	Click nút "📷 Image"
+  •	Click nút "📷 Image"
 
- •	Chọn file ảnh (PNG, JPEG)
+  •	Chọn file ảnh (PNG, JPEG)
 
- •	Nhập câu hỏi về ảnh
+  •	Nhập câu hỏi về ảnh
 
- •	Nhấn Send
+  •	Nhấn Send
 
- •	Câu trả lời của trợ lý phải tham chiếu rõ ràng đến hình ảnh đã tải lên.
+  •	Câu trả lời của trợ lý phải tham chiếu rõ ràng đến hình ảnh đã tải lên.
+
 
 
 📊 Chat Với CSV
 
 Cách 1: Upload file
 
- •	Click nút "📄 CSV"
+  •	Click nút "📄 CSV"
 
- •	Chọn file CSV
+  •	Chọn file CSV
 
- •	Đặt câu hỏi về dữ liệu
+  •	Đặt câu hỏi về dữ liệu
 
 Cách 2: URL
 
- •	Dán URL CSV vào ô "Or paste CSV URL"
+  •	Dán URL CSV vào ô "Or paste CSV URL"
 
- •	Đặt câu hỏi phân tích
+  •	Đặt câu hỏi phân tích
 
 Tính năng CSV:
 
- •	Thống kê mô tả
+  •	Thống kê mô tả
 
- •	Biểu đồ histogram
+  •	Biểu đồ histogram
 
- •	Phân tích xu hướng
+  •	Phân tích xu hướng
 
- •	Preview dữ liệu
+  •	Preview dữ liệu
 
-
+---
 
 ## 🔧 API Endpoints
 
@@ -231,7 +226,7 @@ Tính năng CSV:
 | `GET`       | `/docs`          | API Documentation (Swagger UI)   |
 
 
-
+---
 
 🛠️ Công Nghệ Sử Dụng
 
@@ -259,7 +254,7 @@ React-Markdown - Markdown rendering
 
 Axios - HTTP client
 
-
+---
 
 🚀 Deployment
 
@@ -273,13 +268,13 @@ uvicorn main:app --reload
 cd frontend
 npm run dev
 
-
+---
 
 👥 Tác Giả
 
 Nguyen Mach Dang Khoa - GitHub Profile
 
-
+---
 
 🙏 Ghi Nhận
 
