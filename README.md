@@ -31,7 +31,7 @@ Video demo các tính năng chính của ứng dụng
 
 
 ## 🏗️ Cấu Trúc Dự Án
-
+```
 Test_Chatbot/
 ├── 🐍 backend/                 # FastAPI Backend
 │   ├── main.py                 # Điểm vào chính
@@ -69,7 +69,7 @@ Test_Chatbot/
 │   └── vite.config.js          # Vite configuration
 │
 └── 📚 README.md               # Project documentation
-
+```
 
 🚀 Hướng Dẫn Chạy Ứng Dụng
 📋 Điều Kiện Tiên Quyết
