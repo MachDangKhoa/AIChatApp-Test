@@ -16,18 +16,21 @@ https://drive.google.com/file/d/1_M6h39QJVYQMdH4mORqtaPOpO0GTWKVo/view?usp=drive
 Video demo các tính năng chính của ứng dụng
 
 
+
 ✨ Tính Năng Nổi Bật
-💬 Chat đa phương thức: Text, Image, CSV
 
-🚀 Streaming real-time: Phản hồi nhanh với hiệu ứng typing
+ 💬 Chat đa phương thức: Text, Image, CSV
 
-📊 Phân tích CSV: Thống kê, biểu đồ, histogram
+ 🚀 Streaming real-time: Phản hồi nhanh với hiệu ứng typing
 
-🖼️ Xử lý ảnh thông minh: Phân tích và mô tả hình ảnh
+ 📊 Phân tích CSV: Thống kê, biểu đồ, histogram
 
-🎨 Giao diện hiện đại: Thiết kế responsive, gradient đẹp mắt
+ 🖼️ Xử lý ảnh thông minh: Phân tích và mô tả hình ảnh
 
-⚡ Performance tốt: FastAPI + Vite cho tốc độ tối ưu
+ 🎨 Giao diện hiện đại: Thiết kế responsive, gradient đẹp mắt
+
+ ⚡ Performance tốt: FastAPI + Vite cho tốc độ tối ưu
+
 
 
 ## 🏗️ Cấu Trúc Dự Án
@@ -71,9 +74,12 @@ Test_Chatbot/
 └── 📚 README.md               # Project documentation
 ```
 
+
+
 🚀 Hướng Dẫn Chạy Ứng Dụng
 
 📋 Điều Kiện Tiên Quyết
+
 Python 3.10+ (Đã xác nhận tương thích)
 
 Node.js v22.14.0 (Đã xác nhận tương thích)
@@ -120,7 +126,9 @@ python main.py
 Backend sẽ chạy tại: http://localhost:8000
 
 
+
 ⚛️ Cài Đặt Frontend (Node.js v22.14.0)
+
 Mở terminal mới và vào thư mục frontend
 
 bash
@@ -151,12 +159,18 @@ npm run dev
 Frontend sẽ chạy tại: http://localhost:5173
 
 
+
 🌐 Truy Cập Ứng Dụng
+
 Mở browser và truy cập: http://localhost:5173
 
 
+
 🎯 Hướng Dẫn Sử Dụng
+
+
 💬 Chat Văn Bản
+
  •	Nhập câu hỏi vào ô text và nhấn Send
 
  •	Hỗ trợ markdown trong câu trả lời
@@ -165,7 +179,9 @@ Mở browser và truy cập: http://localhost:5173
 
  •	Xử lý trạng thái tải/streaming mượt mà
 
+
 🖼️ Chat Với Ảnh
+
  •	Click nút "📷 Image"
 
  •	Chọn file ảnh (PNG, JPEG)
@@ -176,7 +192,9 @@ Mở browser và truy cập: http://localhost:5173
 
  •	Câu trả lời của trợ lý phải tham chiếu rõ ràng đến hình ảnh đã tải lên.
 
+
 📊 Chat Với CSV
+
 Cách 1: Upload file
 
  •	Click nút "📄 CSV"
@@ -202,6 +220,7 @@ Tính năng CSV:
  •	Preview dữ liệu
 
 
+
 ## 🔧 API Endpoints
 
 | **Method** | **Endpoint**      | **Mô tả**                        |
@@ -213,7 +232,9 @@ Tính năng CSV:
 
 
 
+
 🛠️ Công Nghệ Sử Dụng
+
 Backend (Python 3.10+)
 FastAPI - Modern Python web framework
 
@@ -239,7 +260,9 @@ React-Markdown - Markdown rendering
 Axios - HTTP client
 
 
+
 🚀 Deployment
+
 Development
 bash
 # Terminal 1 - Backend
@@ -251,11 +274,15 @@ cd frontend
 npm run dev
 
 
+
 👥 Tác Giả
+
 Nguyen Mach Dang Khoa - GitHub Profile
 
 
+
 🙏 Ghi Nhận
+
 Google Gemini AI - Multi-modal AI model
 
 FastAPI - Modern web framework
