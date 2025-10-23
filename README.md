@@ -30,8 +30,8 @@ Video demo các tính năng chính của ứng dụng
 ⚡ Performance tốt: FastAPI + Vite cho tốc độ tối ưu
 
 
-🏗️ Cấu Trúc Dự Án
-text
+## 🏗️ Cấu Trúc Dự Án
+
 Test_Chatbot/
 ├── 🐍 backend/                 # FastAPI Backend
 │   ├── main.py                 # Điểm vào chính
