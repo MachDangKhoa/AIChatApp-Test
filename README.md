@@ -72,12 +72,14 @@ Test_Chatbot/
 ```
 
 🚀 Hướng Dẫn Chạy Ứng Dụng
+
 📋 Điều Kiện Tiên Quyết
 Python 3.10+ (Đã xác nhận tương thích)
 
 Node.js v22.14.0 (Đã xác nhận tương thích)
 
 Google Gemini API Key (Lấy tại đây)
+
 
 🔧 Cài Đặt Backend (Python 3.10+)
 Clone repository
@@ -117,6 +119,7 @@ bash
 python main.py
 Backend sẽ chạy tại: http://localhost:8000
 
+
 ⚛️ Cài Đặt Frontend (Node.js v22.14.0)
 Mở terminal mới và vào thư mục frontend
 
@@ -146,6 +149,7 @@ Chạy development server
 bash
 npm run dev
 Frontend sẽ chạy tại: http://localhost:5173
+
 
 🌐 Truy Cập Ứng Dụng
 Mở browser và truy cập: http://localhost:5173
@@ -197,12 +201,17 @@ Tính năng CSV:
 
  •	Preview dữ liệu
 
-🔧 API Endpoints
-Method	Endpoint	Mô Tả
-POST	/api/chat/text	Chat văn bản thông thường
-POST	/api/chat/image	Chat với ảnh upload
-POST	/api/chat/csv	Chat với file CSV
-GET	/docs	API Documentation (Swagger)
+
+## 🔧 API Endpoints
+
+| **Method** | **Endpoint**      | **Mô tả**                        |
+|-------------|------------------|----------------------------------|
+| `POST`      | `/api/chat/text` | Chat văn bản thông thường        |
+| `POST`      | `/api/chat/image`| Chat với ảnh upload              |
+| `POST`      | `/api/chat/csv`  | Chat với file CSV                |
+| `GET`       | `/docs`          | API Documentation (Swagger UI)   |
+
+
 
 🛠️ Công Nghệ Sử Dụng
 Backend (Python 3.10+)
@@ -241,8 +250,10 @@ uvicorn main:app --reload
 cd frontend
 npm run dev
 
+
 👥 Tác Giả
 Nguyen Mach Dang Khoa - GitHub Profile
+
 
 🙏 Ghi Nhận
 Google Gemini AI - Multi-modal AI model
