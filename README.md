@@ -1,10 +1,10 @@
 🤖 AI Chat Application - Gemini AI Powered
 
-https://img.shields.io/badge/AI-Chat%2520Assistant-blue
-https://img.shields.io/badge/Multi--Modal-Text%252C%2520Image%252C%2520CSV-green
-https://img.shields.io/badge/Real--Time-Streaming-orange
-https://img.shields.io/badge/Node.js-v22.14.0-green
-https://img.shields.io/badge/Python-3.10%252B-blue
+![AI Chat Assistant](https://img.shields.io/badge/AI-Chat%2520Assistant-blue)
+![Multi-Modal](https://img.shields.io/badge/Multi--Modal-Text%252C%2520Image%252C%2520CSV-green)
+![Real-Time Streaming](https://img.shields.io/badge/Real--Time-Streaming-orange)
+![Node.js](https://img.shields.io/badge/Node.js-v22.14.0-green)
+![Python](https://img.shields.io/badge/Python-3.10%252B-blue)
 
 Ứng dụng chat AI đa phương thức hỗ trợ tương tác với văn bản, hình ảnh và file CSV. Được xây dựng với FastAPI backend và React frontend, tích hợp Google Gemini AI.
 
